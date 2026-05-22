@@ -1,0 +1,296 @@
+
+<!DOCTYPE html>
+<html lang="en" class="text-center">
+<head>
+    <meta charset="utf-8">
+    <meta name="robots" content="index, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Shook & Stone | summerlin personal injury lawyer</title>
+    <meta name="description" content="summerlin personal injury lawyer">
+    <meta name="theme-color" content="#0d296b">
+    <link rel="icon" type="image/png" sizes="192x192" href="https://www.shookandstone.com/wp-content/themes/shook-and-stone-redesign/assets/favicon/favicon-96x96.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <meta property="og:title" content="Shook & Stone | summerlin personal injury lawyer">
+    <meta property="og:description" content="summerlin personal injury lawyer">
+    <meta property="og:image" content="https://www.shookandstone.com/wp-content/themes/shook-and-stone-redesign/assets/app/img/all-members_cropped.webp">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="preload" as="image" href="https://www.shookandstone.com/wp-content/themes/shook-and-stone-redesign/assets/app/img/all-members_cropped.webp">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    
+    
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+    <style>
+    /* Ensure visually-hidden works even if Bootstrap CSS fails to load */
+    .visually-hidden { position: absolute !important; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+
+    :root {
+        --brand:#0d296b;
+        --brand-600:#0b235b;
+        --ink:#0f172a;
+        --surface:#f7f9fc;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+        margin-top: 0;
+        font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+        background-color: #0e0e0e;
+        color: var(--ink);
+    }
+
+    .hero-title, h1, h2, h3 {
+        font-family: "Playfair Display", serif;
+        letter-spacing: .2px;
+    }
+    .hero-title { font-size: clamp(2.6rem, 6vw, 4rem); }
+    h2 { font-size: clamp(1.6rem, 3.2vw, 2.2rem); }
+
+    a.inline-link { text-decoration: underline; text-underline-offset: 3px; }
+
+    #mainHeader {
+        position: fixed; top: 0; right: 0; left: 0; z-index: 2000;
+        background: rgba(13,41,107,0);
+        transition: background-color .3s ease, box-shadow .3s ease, backdrop-filter .3s ease, border-color .3s ease;
+        border-bottom: 1px solid transparent;
+    }
+    #mainHeader.scrolled {
+        background: rgba(13,41,107,.65);
+        box-shadow: 0 6px 18px rgba(0,0,0,.25);
+        backdrop-filter: saturate(140%) blur(10px);
+        border-bottom: 1px solid rgba(255,255,255,.18);
+    }
+
+    .hero-section { padding-top: 100px; position: relative; color: #fff; overflow: hidden; min-height: 400px; }
+    .hero-section::before {
+        content:""; position:absolute; inset:0;
+        background: radial-gradient(1200px 600px at 60% 20%, rgba(255,255,255,.07), transparent 60%),
+                   linear-gradient(to bottom, rgba(0,0,0,.32), rgba(0,0,0,.52));
+        pointer-events:none;
+    }
+    .hero-title { font-weight: 700; margin-bottom: .5rem; text-shadow: 0 2px 18px rgba(0,0,0,.28); }
+
+    .accent { position: relative; display: inline-block; padding-bottom: .25rem; }
+    .accent::after {
+        content: ""; position: absolute; left: 50%; transform: translateX(-50%); bottom: -12px;
+        width: 72px; height: 2px; border-radius: 999px;
+        background: linear-gradient(90deg, rgba(255,255,255,.0) 0%, #ffffff 50%, rgba(255,255,255,.0) 100%);
+        opacity: .95;
+    }
+    .accent-dark::after {
+        background: linear-gradient(90deg, rgba(13,41,107,0) 0%, var(--brand) 50%, rgba(13,41,107,0) 100%);
+    }
+
+    .section-wrap { padding: 2rem; position:relative; }
+    .section-inner { max-width: 70ch; margin: 0 auto; text-align: left; }
+    .prose p {
+        font-size: 1.05rem; line-height: 1.9; letter-spacing: .01em; margin-bottom: 1.15rem;
+        color: #0f0f10; text-align: justify;
+    }
+    .section-wrap:not(:first-child)::before {
+        content:""; position:absolute; top:-1.5rem; left:0; right:0; height:1px;
+        background: linear-gradient(90deg, transparent, rgba(13,41,107,.12), transparent);
+    }
+
+    .figure { border-radius: 1rem; overflow: hidden; box-shadow: 0 8px 22px rgba(0,0,0,.15); }
+    .figure img { display: block; width: 100%; height: auto; transition: transform .28s ease; }
+    .figure:hover img { transform: scale(1.015); }
+
+    .btn-ghost {
+        display: inline-flex; align-items: center; gap: .6rem;
+        padding: .68rem 1.15rem; border: 1px solid rgba(255,255,255,.85); color: #fff;
+        background: rgba(255,255,255,.085); border-radius: 999px;
+        backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px);
+        box-shadow: 0 10px 28px rgba(0,0,0,.25); text-decoration: none; font-weight: 600; letter-spacing: .02em;
+        transition: transform .15s ease, background .25s ease, border-color .25s ease, box-shadow .25s ease;
+    }
+    .btn-ghost:hover { background: rgba(255,255,255,.15); border-color: #ffffff; transform: translateY(-1px); box-shadow: 0 12px 28px rgba(0,0,0,.32); }
+    .btn-ghost i { transition: transform .18s ease; }
+    .btn-ghost:hover i { transform: translateX(4px); }
+    .btn-ghost:focus-visible { outline: 2px solid #ffffff; outline-offset: 3px; }
+    .btn-ghost:active { transform: translateY(0); }
+
+    #mainHeader a { color:#fff; text-decoration:none; }
+
+    .header-icon {
+        display:inline-flex; align-items:center; justify-content:center;
+        width:40px; height:40px; border-radius:999px; margin-left:.5rem;
+        color:#fff; text-decoration:none; outline-offset:2px;
+    }
+    .header-icon i { font-size:1.5rem; line-height:1; }
+    .header-icon:focus-visible { outline:2px solid #fff; }
+    @media (hover:hover){ .header-icon:hover{ background: rgba(255,255,255,.12); } }
+
+    .reveal { opacity: 0; transform: translateY(12px); transition: opacity .55s ease, transform .55s ease; }
+    .reveal.visible { opacity: 1; transform: none; }
+
+    .footer-link { text-decoration: none; }
+    .footer-link:hover { text-decoration: underline; text-underline-offset: 3px; }
+    footer { position: relative; background: #0c0c0c; }
+    footer::before {
+        content:""; position:absolute; top:0; left:0; right:0; height:2px;
+        background: linear-gradient(90deg, transparent, rgba(255,255,255,.22), transparent); opacity:.6;
+    }
+
+    a:focus-visible, button:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
+
+    #services { scroll-margin-top: 110px; }
+
+    @media (prefers-reduced-motion: reduce) {
+        .reveal, .figure img, .btn-ghost, .accent::after { transition: none; animation: none; }
+        html { scroll-behavior: auto; }
+    }
+
+    #backToTop { position: fixed; right: 16px; bottom: 16px; z-index: 1040; display: none; }
+    </style>
+</head>
+<body class="bg-dark text-dark">
+
+    <header id="mainHeader" class="text-white py-3 d-flex align-items-center">
+        <div class="container d-flex justify-content-between align-items-center">
+            <h1 class="text-start mb-0">
+                <a href="#" class="text-white text-decoration-none" aria-label="summerlin personal injury lawyer home">summerlin personal injury lawyer</a>
+            </h1>
+            <div><a href="https://www.facebook.com/ShookandStonePersonalInjuryandDisability" class="header-icon" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="bi bi-facebook" aria-hidden="true"></i><span class="visually-hidden">Facebook</span></a><a href="https://www.instagram.com/shookstonelaw/" class="header-icon" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="bi bi-instagram" aria-hidden="true"></i><span class="visually-hidden">Instagram</span></a><a href="https://x.com/shookstonelaw" class="header-icon" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i class="bi bi-twitter" aria-hidden="true"></i><span class="visually-hidden">Twitter</span></a></div>
+        </div>
+    </header>
+
+    <section class="hero-section"
+             style="background-image: url('https://www.shookandstone.com/wp-content/themes/shook-and-stone-redesign/assets/app/img/all-members_cropped.webp'); background-size: cover; background-position: center; height: 100vh; position: relative;">
+      <div class="container hero-content"
+           style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 1; color: white;">
+        <div class="d-flex flex-column align-items-center text-center">
+          <h2 class="hero-title accent mb-3">Shook & Stone</h2>
+          <a href="#services" class="btn-ghost" role="button" aria-label="Read more about services">
+            Read More <i class="bi bi-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <main style="background-color: #ffffff;">
+        <div class="container py-5" style="margin-top:0;">
+            <div id="services" class="row justify-content-center mb-5">
+                <div class="col-lg-10 col-xl-8">
+                    <div class="section-wrap reveal">
+                        <h2 class="mb-4 text-center text-capitalize" style="font-weight: 700; color:var(--brand);">
+                            <span class="accent accent-dark">Summerlin accident litigation expert</span>
+                        </h2>
+                        <div class="section-inner prose">
+                            <p>In today's dynamic injury landscape, a seasoned professional focuses on assessing claims, outlining available options, and coordinating medical records and expert evaluations to document injuries and losses. The role of a skilled advocate in these situations includes clear communication, thorough documentation, and a client centered approach that respects individual circumstances and needs. <a href="https://us-sea-1.linodeobjects.com/summerlin-personal-injury-lawyer/summerlin-personal-injury-lawyer.html" class="inline-link">summerlin personal injury lawyer</a> is attentive to timelines and credible reporting, ensuring that all aspects of the case are prepared for an efficient and fair resolution, with attention to ethical standards and professional conduct. summerlin personal injury lawyer offers guidance grounded in experience and a focus on measurable outcomes that support clients through every stage of the process.</p>
+                            <p>Clients benefit from a structured, transparent process that emphasizes accurate documentation, respectful dialogue with medical providers and insurers, and strategic planning to navigate potential delays. A capable professional helps evaluate options and prepare a clear path forward, while maintaining rigorous records and coordinating expert evaluations to verify injuries and losses. As events unfold, the emphasis remains on effective communication and timely action to support progress toward a favorable resolution for those affected. summerlin personal injury lawyer also highlights the importance of maintaining trust and accountability throughout the claim lifecycle. summerlin personal injury lawyer reinforces a commitment to professionalism and client service in every interaction and decision.</p>
+                            <p>Residents and visitors seeking guidance after an incident can rely on informed perspectives that balance practical steps with diligent oversight. An experienced advocate coordinates medical reviews, documents incidents, and ensures that losses are represented accurately for efficient handling and potential recovery. The goal is to preserve rights while facilitating a smooth process that respects the complexities of each case. summerlin personal injury lawyer reflects a dedication to delivering high standards of service, navigating expectations, and supporting clients with clear, actionable counsel.</p>
+                            <figure class="figure mt-4">
+                                <img src="https://www.shookandstone.com/wp-content/uploads/2025/10/hero-img-shook-and-stone-1.webp" loading="lazy" decoding="async" alt="summerlin personal injury lawyer image">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-10 col-xl-8">
+                    <div class="section-wrap reveal">
+                        <h2 class="mb-4 text-center text-capitalize" style="font-weight: 700; color: var(--brand);">
+                            <span class="accent accent-dark">Summerlin injury advocate group</span>
+                        </h2>
+                        <div class="section-inner prose">
+                            <p>A professional injury advocacy landscape demands clear guidance and careful documentation, and summerlin personal injury lawyer can help clients understand their options while coordinating medical evaluations and gathering necessary evidence. The advocacy approach emphasizes respectful communication, credibility with medical providers and insurers, and a client centered focus that respects individual circumstances and needs. summerlin personal injury lawyer supports a collaborative process that helps translate complex information into actionable steps for clients seeking timely resolutions.</p>
+                            <div class="row align-items-center mb-4">
+                                <div class="col-md-6">
+                                    <p>Injury matters often involve evaluating options, timelines, and the collection of records to document losses, with a focus on accuracy and transparent communication. Within this framework, summerlin personal injury lawyer can guide clients through the process and coordinate medical records and expert evaluations to support strong assertions of liability, damages, and recovery potential. The role of a dedicated advocate is to maintain professional service while balancing expectations and practical considerations for all parties involved, including insurance representatives and medical teams. summerlin personal injury lawyer ensures that the approach remains aligned with ethical standards and client welfare throughout the case.</p>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="ratio ratio-16x9 mx-auto" style="border-radius: 1rem; overflow: hidden; box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);">
+                                        <iframe src="https://www.youtube.com/embed/R7MYBJzsqlg?si=VcCfWZTVY15QuGvY" loading="lazy" title="summerlin personal injury lawyer video" frameborder="0" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                            <p>Community members who face injury events benefit from informed guidance that clarifies next steps and expected timelines. A reputable firm or advocate pair can provide clear insights into options and timelines while maintaining a steady focus on documentation, evidence gathering, and respectful communication. The involvement of a skilled professional helps establish credibility with medical providers and insurers, facilitating a smoother path toward fair outcomes for those navigating recovery and compensation, including review of applicable statutes and practical milestones provided by the team. summerlin personal injury lawyer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-10 col-xl-8">
+                    <div class="section-wrap reveal">
+                        <h2 class="mb-4 text-center text-capitalize" style="font-weight: 700; color:var(--brand);">
+                            <span class="accent accent-dark">Summerlin injury assistance network</span>
+                        </h2>
+                        <div class="section-inner prose">
+                            <p>In the context of incident response and case preparation, summerlin personal injury lawyer helps communities connect with resources and professionals who can guide individuals through the initial steps after an injury, while summerlin personal injury lawyer emphasizes the importance of trustworthy information and timely access to medical assessments and legal counsel. This network supports clients in understanding their rights and the practicalities of pursuing a claim, ensuring that essential documentation is organized and accessible from the outset.</p>
+                            <p>As part of a broader service ecosystem, summerlin personal injury lawyer and summerlin personal injury lawyer work together to streamline the collection of medical records, expert evaluations, and other evidence needed to present a comprehensive view of losses and damages. Professionals in this space strive to maintain open lines of communication with clients, healthcare providers, and insurers, promoting transparency and a measured approach to the claims process.</p>
+                            <p>Across the board, summerlin personal injury lawyer represents a commitment to professional service, credible guidance, and a client centered focus that respects individual circumstances and needs. By aligning with reputable practitioners and support networks, individuals can navigate the complexities of injury claims with confidence, pursue appropriate remedies, and pursue resolution that reflects the impact of their injuries.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-10 col-xl-8 reveal">
+                  <h2 class="mb-4 text-center text-capitalize" style="font-weight: 700; color:var(--brand);">
+                  <span class="accent accent-dark">
+                  <i class="bi bi-geo-alt" style="margin-right:.5rem;"></i>Shook & Stone</span>
+                  </h2>
+
+                    <div class="mb-4 ratio ratio-16x9">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3221.1674766636106!2d-115.146946!3d36.162479!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c8c39c7b129d69%3A0x1637781d34d0d77a!2sShook%20%26%20Stone%20Personal%20Injury%20and%20Disability%20Lawyers!5e0!3m2!1sen!2sin!4v1779435605455!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <p class="fw-bold" style="color: #000000;">Shook & Stone</p>
+                    <p style="color: #000000;">710 S 4th StLas Vegas, NV 89101</p>
+                    <p style="color: #000000;">(702) 381-7379</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="text-white bg-dark mt-5">
+        <div class="container py-4 py-lg-5">
+            <div class="row justify-content-center">
+                <div class="col-sm-4 col-md-3 text-center text-lg-start d-flex flex-column mb-4 mb-md-0 reveal">  <h3 class="fs-6 text-white section-title-sm">Shook & Stone</h3>  <ul class="list-unstyled">    <li><a class="link-light footer-link" href="summerlin-personal-injury-lawyer.html" rel="noopener">Company Website</a></li>    <li><a class="link-light footer-link" href="shookandstone.com" rel="noopener">shookandstone.com</a></li>    <li><a class="link-light footer-link" href="" rel="noopener"></a></li>  </ul></div><div class="col-sm-4 col-md-3 text-center text-lg-start d-flex flex-column mb-4 mb-md-0 reveal">  <h3 class="fs-6 text-white section-title-sm">Useful Links</h3>  <ul class="list-unstyled">    <li><a class="link-light footer-link" href="" rel="noopener">Summerlin accident litigation expert</a></li>    <li><a class="link-light footer-link" href="shookandstone.com" rel="noopener">Summerlin injury advocate group</a></li>    <li><a class="link-light footer-link" href="https://maps.app.goo.gl/UdSMfGFAvSnXcPj56" rel="noopener">Summerlin injury assistance network</a></li>  </ul></div><div class="col-sm-4 col-md-3 text-center text-lg-start d-flex flex-column mb-4 mb-md-0 reveal">  <h3 class="fs-6 text-white section-title-sm">Follow us on Social Media</h3>  <ul class="list-unstyled">    <li><a class="link-light footer-link" href="https://www.facebook.com/ShookandStonePersonalInjuryandDisability" rel="noopener">Facebook</a></li>    <li><a class="link-light footer-link" href="https://x.com/shookstonelaw" rel="noopener">Twitter</a></li>    <li><a class="link-light footer-link" href="https://www.instagram.com/shookstonelaw/" rel="noopener">Instagram</a></li>  </ul></div>
+            </div>
+            <div class="mt-4">
+                <rssapp-wall id="jCth1uIE2R6AiWxv"></rssapp-wall><script src="https://widget.rss.app/v1/wall.js" type="text/javascript" async></script>
+            </div>
+        </div>
+    </footer>
+
+    <a id="backToTop" href="#top" class="btn btn-light rounded-pill shadow-sm px-3 py-2" aria-label="Back to top">↑ Top</a>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var header = document.getElementById("mainHeader");
+        var backToTop = document.getElementById("backToTop");
+        var reveals = document.querySelectorAll('.reveal');
+
+        window.addEventListener("scroll", function() {
+            var scrolled = window.scrollY > 50;
+            header.classList.toggle("scrolled", scrolled);
+            backToTop.style.display = window.scrollY > 600 ? "inline-flex" : "none";
+        });
+
+        if ('IntersectionObserver' in window) {
+            const io = new IntersectionObserver((entries) => {
+                entries.forEach(e => {
+                    if (e.isIntersecting) {
+                        e.target.classList.add('visible');
+                        io.unobserve(e.target);
+                    }
+                });
+            }, { threshold: 0.12 });
+            reveals.forEach(el => io.observe(el));
+        } else {
+            reveals.forEach(el => el.classList.add('visible'));
+        }
+    });
+    </script>
+
+</body>
+</html>
